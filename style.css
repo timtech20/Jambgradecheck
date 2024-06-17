@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+
+.con {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #142577 0%, #740b6d 50%, #ce9b3c 100%);
+}
+
+.div1 {
+    background-color: #44c3e5;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 30px rgb(82, 30, 87);
+    border-radius: 5px;
+}
+
+.div2 {
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 5px 5px 10px #07b9eb;
+}
+
+button {
+    background-color: #44c3e5;
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    transition: 5ms width;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #6ed6f3;
+}
+
+button:focus {
+    background-color: #6ed6f3;
+    width: 48%;
+}
+
+#studentgrad {
+    /* background-color: #44c3e5; */
+    width: 75%;
+    height: 30px;
+    place-content: center;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #07b9eb;
+    bottom: 40px;
+    text-shadow: 2px 2px 3px#142577;
+    position: relative;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+input{
+    border: 1px solid rgb(209, 209, 209);
+    width: 75%;
+    height: 30px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 2px 0px 2px 2px gray;
+}
+:placeholder-shown{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(248, 244, 244);
+}
+
+@media screen and (max-width:480px) {
+    .div1 {
+        background-color: #44c3e5;
+        width: 90%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 30px rgb(82, 30, 87);
+        border-radius: 5px;
+    }
+    
+    .div2 {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 5px 5px 10px #07b9eb;
+    }
+
+    input{
+        border: 1px solid rgb(209, 209, 209);
+        width: 100%;
+        height: 30px;
+    }
+    .div3{
+        /* width: 100%; */
+    }
+
+    h2 {
+        font-size: 35px;
+        color: #07b9eb;
+        bottom: 20px;
+        text-shadow: 2px 2px 3px#142577;
+        position: relative;
+        font-family: "Six Caps", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 1px;
+    }
+
+    .con {
+        background-image: linear-gradient(to bottom right, #142577 0%, #ce9b3c 50% #740b6d 100%, );
+    }
+
+}
